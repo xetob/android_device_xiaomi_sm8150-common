@@ -16,6 +16,24 @@
       "message": "Having this prop doesn\u0027t prevent you from disabling offload from settings tho? Also I\u0027m pretty sure it defaults to false.",
       "revId": "973dbd385213d31bbdd52da166a123e2416a5798",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eae17a6b_15d0dc57",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-04-30T12:51:33Z",
+      "side": 1,
+      "message": "The setprop in init will revert it back",
+      "parentUuid": "39d2b823_a0fbfd9b",
+      "revId": "973dbd385213d31bbdd52da166a123e2416a5798",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
