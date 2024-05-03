@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f372074_04b6c8c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 6360
+      },
+      "writtenOn": "2024-05-03T17:52:10Z",
+      "side": 1,
+      "message": "Where to find this common kernel tree?\n\nDont see lineage-21 branch in android_kernel_xiaomi_sm8150",
+      "revId": "075b637a9754cd5c6571fd4929bb7d8c36cab3f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
