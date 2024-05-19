@@ -119,7 +119,8 @@ PRODUCT_PACKAGES += \
     libsndmonitor \
     libspkrprot \
     libvisualizer \
-    libvolumelistener
+    libvolumelistener \
+    tinymix
 
 # Audio configs
 PRODUCT_COPY_FILES += \
