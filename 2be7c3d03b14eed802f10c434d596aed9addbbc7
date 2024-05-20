@@ -16,6 +16,24 @@
       "message": "Pretty sure you can remove this sysfs_msm_subsys like I did on mi845.",
       "revId": "2be7c3d03b14eed802f10c434d596aed9addbbc7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ca1c3d1_f95bbe5c",
+        "filename": "sepolicy/vendor/hal_power_default.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-05-20T14:10:56Z",
+      "side": 1,
+      "message": "Nope, the HAL couldn\u0027t access GPU nodes on sm8150, still have to test on sdm710",
+      "parentUuid": "a79993bc_25421376",
+      "revId": "2be7c3d03b14eed802f10c434d596aed9addbbc7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
