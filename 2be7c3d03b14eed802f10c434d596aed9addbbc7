@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a79993bc_25421376",
+        "filename": "sepolicy/vendor/hal_power_default.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-05-20T07:00:39Z",
+      "side": 1,
+      "message": "Pretty sure you can remove this sysfs_msm_subsys like I did on mi845.",
+      "revId": "2be7c3d03b14eed802f10c434d596aed9addbbc7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
