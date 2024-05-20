@@ -34,6 +34,24 @@
       "parentUuid": "a79993bc_25421376",
       "revId": "2be7c3d03b14eed802f10c434d596aed9addbbc7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "02ea1f9f_bc00ac9e",
+        "filename": "sepolicy/vendor/hal_power_default.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-05-20T15:42:13Z",
+      "side": 1,
+      "message": "I mean fully removing sysfs_msm_subsys label. Not removing these rules alone, but also restoring the contexts set by Qualcomm: https://github.com/LineageOS/android_device_qcom_sepolicy_vndr/blob/lineage-21.0-legacy-um/generic/vendor/kona/genfs_contexts#L34",
+      "parentUuid": "1ca1c3d1_f95bbe5c",
+      "revId": "2be7c3d03b14eed802f10c434d596aed9addbbc7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
