@@ -1,6 +1,11 @@
 # Audio
+audio.offload.                                  u:object_r:vendor_audio_prop:s0
 audio.soundtrigger.debug.urser_id               u:object_r:vendor_audio_prop:s0
 audio_hal.in_period_size                        u:object_r:vendor_audio_prop:s0
+
+# Bluetooth
+persist.vendor.bt.                              u:object_r:vendor_bluetooth_prop:s0
+persist.vendor.btstack.                         u:object_r:vendor_bluetooth_prop:s0
 
 # Camera
 camera.                                         u:object_r:vendor_camera_prop:s0
@@ -16,12 +21,12 @@ ro.camera.req.fmq.size                          u:object_r:vendor_camera_prop:s0
 
 # Fingerprint
 gf.debug.                                       u:object_r:vendor_fingerprint_prop:s0
+persist.sys.fp.                                 u:object_r:vendor_fingerprint_prop:s0
 persist.vendor.fpc.                             u:object_r:vendor_fingerprint_prop:s0
 persist.vendor.sys.fp.                          u:object_r:vendor_fingerprint_prop:s0
-persist.sys.fp.                                 u:object_r:vendor_fingerprint_prop:s0
+ro.boot.fpsensor                                u:object_r:vendor_fingerprint_prop:s0
 ro.hardware.fp                                  u:object_r:vendor_fingerprint_prop:s0
 vendor.fps_hal.                                 u:object_r:vendor_fingerprint_prop:s0
-ro.boot.fpsensor                                u:object_r:vendor_fingerprint_prop:s0
 
 # Global
 ro.boot.factorybuild                            u:object_r:vendor_public_vendor_default_prop:s0

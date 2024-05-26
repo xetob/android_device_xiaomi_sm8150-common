@@ -11,6 +11,7 @@ allow devicesettings_app {
   mediaserver_service
 }:service_manager find;
 
+# Allow devicesettings_app to communicate with the Xiaomi motor HAL
 hal_client_domain(devicesettings_app, hal_motor)
 
 # Allow devicesettings_app read and write /data/data subdirectory
