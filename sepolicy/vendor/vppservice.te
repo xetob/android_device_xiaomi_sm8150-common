@@ -1,1 +1,2 @@
-r_dir_file(vendor_vppservice, public_adsprpcd_file)
+# Allow reading ADSP files
+r_dir_file(vendor_vppservice, vendor_public_adsprpcd_file)
