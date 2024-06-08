@@ -16,6 +16,24 @@
       "message": "Fixes the following denial:\n\n[ 1488.318526] type\u003d1400 audit(1717856483.045:1262): avc:  denied  { getattr } for  comm\u003d\"boot@1.1-servic\" path\u003d\"/dev/block/sde23\" dev\u003d\"tmpfs\" ino\u003d21089 scontext\u003du:r:hal_bootctl_default:s0 tcontext\u003du:object_r:block_device:s0 tclass\u003dblk_file permissive\u003d0",
       "revId": "61d7bbaf6347864ec9626b83f60e7009bfddbd44",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d253512_2bd5f399",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2024-06-08T15:26:41Z",
+      "side": 1,
+      "message": "Fixes \"Lineage Updater\" installation on nabu",
+      "parentUuid": "a97a9a2f_e580b10f",
+      "revId": "61d7bbaf6347864ec9626b83f60e7009bfddbd44",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
