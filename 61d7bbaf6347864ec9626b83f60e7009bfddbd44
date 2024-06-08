@@ -52,6 +52,23 @@
       "parentUuid": "4d253512_2bd5f399",
       "revId": "61d7bbaf6347864ec9626b83f60e7009bfddbd44",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f041c679_b9d2abce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2024-06-08T16:18:04Z",
+      "side": 1,
+      "message": "Must have derped and checked sde32 instead of 23. sigh",
+      "revId": "61d7bbaf6347864ec9626b83f60e7009bfddbd44",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
