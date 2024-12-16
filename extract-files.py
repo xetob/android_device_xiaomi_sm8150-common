@@ -55,6 +55,8 @@ blob_fixups: blob_fixups_user_type = {
                 .replace_needed('android.media.audio.common.types-V2-cpp.so', 'android.media.audio.common.types-V4-cpp.so'),
             'vendor/etc/init/init.mi_thermald.rc': blob_fixup()
                 .regex_replace('.*seclabel u:r:mi_thermald:s0\n', ''),
+            'vendor/etc/seccomp_policy/atfwd@2.0.policy': blob_fixup()
+                .add_line_if_missing('gettid: 1'),
             ('vendor/lib64/mediadrm/libwvdrmengine.so', 'vendor/lib64/libwvhidl.so'): blob_fixup()
                 .add_needed('libcrypto_shim.so'),
 }  # fmt: skip
