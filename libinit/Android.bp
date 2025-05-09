@@ -15,11 +15,3 @@ cc_library_static {
     export_include_dirs: ["include"],
     recovery_available: true,
 }
-
-cc_library_static {
-    name: "init_xiaomi_msmnile",
-    srcs: ["init_xiaomi_msmnile.cpp"],
-    whole_static_libs: ["libinit_xiaomi_msmnile"],
-    include_dirs: ["system/core/init"],
-    recovery_available: true,
-}
