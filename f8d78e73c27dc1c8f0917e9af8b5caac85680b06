@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27e7b44e_775e183c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2025-06-09T13:23:51Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_xiaomi_sm8150-common/+/432775 squash this one with it.",
+      "revId": "f8d78e73c27dc1c8f0917e9af8b5caac85680b06",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
