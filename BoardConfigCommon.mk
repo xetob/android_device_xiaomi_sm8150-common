@@ -69,9 +69,6 @@ endif
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
-# Init
-TARGET_INIT_VENDOR_LIB ?= //$(COMMON_PATH):init_xiaomi_msmnile
-
 # Kernel
 ifeq ($(TARGET_IS_VAB),true)
 BOARD_BOOT_HEADER_VERSION := 3
