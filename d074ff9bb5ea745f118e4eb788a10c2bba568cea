@@ -34,6 +34,24 @@
       "parentUuid": "e72be1e4_90cf830b",
       "revId": "d074ff9bb5ea745f118e4eb788a10c2bba568cea",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8779877f_ade2c454",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34612
+      },
+      "writtenOn": "2025-06-12T17:49:40Z",
+      "side": 1,
+      "message": "02-23 21:35:33.039     1     1 W /system/bin/init: type\u003d1107 audit(0.0:4): uid\u003d0 auid\u003d4294967295 ses\u003d4294967295 subj\u003du:r:init:s0 msg\u003d\u0027avc:  denied  { set } for property\u003dpersist.data.df.iwlan_mux pid\u003d1 uid\u003d0 gid\u003d0 scontext\u003du:r:vendor_init:s0 tcontext\u003du:object_r:default_prop:s0 tclass\u003dproperty_service permissive\u003d0\u0027\n02-23 21:35:33.057     0     0 E init    : Do not have permissions to set \u0027persist.data.df.iwlan_mux\u0027 to \u00279\u0027 in property file \u0027/vendor/build.prop\u0027: SELinux permission check failed\n02-23 21:35:33.039     1     1 W /system/bin/init: type\u003d1107 audit(0.0:5): uid\u003d0 auid\u003d4294967295 ses\u003d4294967295 subj\u003du:r:init:s0 msg\u003d\u0027avc:  denied  { set } for property\u003dpersist.radio.dynamic_sar pid\u003d1 uid\u003d0 gid\u003d0 scontext\u003du:r:vendor_init:s0 tcontext\u003du:object_r:radio_prop:s0 tclass\u003dproperty_service permissive\u003d0\u0027\n02-23 21:35:33.057     0     0 E init    : Do not have permissions to set \u0027persist.radio.dynamic_sar\u0027 to \u0027false\u0027 in property file \u0027/vendor/build.prop\u0027: SELinux permission check failed\n02-23 21:35:33.039     1     1 W /system/bin/init: type\u003d1107 audit(0.0:6): uid\u003d0 auid\u003d4294967295 ses\u003d4294967295 subj\u003du:r:init:s0 msg\u003d\u0027avc:  denied  { set } for property\u003dpersist.radio.NO_STAPA pid\u003d1 uid\u003d0 gid\u003d0 scontext\u003du:r:vendor_init:s0 tcontext\u003du:object_r:radio_prop:s0 tclass\u003dproperty_service permissive\u003d0\u0027\n02-23 21:35:33.057     0     0 E init    : Do not have permissions to set \u0027persist.radio.NO_STAPA\u0027 to \u00271\u0027 in property file \u0027/vendor/build.prop\u0027: SELinux permission check failed\n02-23 21:35:33.039     1     1 W /system/bin/init: type\u003d1107 audit(0.0:7): uid\u003d0 auid\u003d4294967295 ses\u003d4294967295 subj\u003du:r:init:s0 msg\u003d\u0027avc:  denied  { set } for property\u003dpersist.radio.VT_HYBRID_ENABLE pid\u003d1 uid\u003d0 gid\u003d0 scontext\u003du:r:vendor_init:s0 tcontext\u003du:object_r:radio_prop:s0 tclass\u003dproperty_service permissive\u003d0\u0027\n02-23 21:35:33.057     0     0 E init    : Do not have permissions to set \u0027persist.radio.VT_HYBRID_ENABLE\u0027 to \u00271\u0027 in property file \u0027/vendor/build.prop\u0027: SELinux permission check failed\n02-23 21:35:33.039     1     1 W /system/bin/init: type\u003d1107 audit(0.0:8): uid\u003d0 auid\u003d4294967295 ses\u003d4294967295 subj\u003du:r:init:s0 msg\u003d\u0027avc:  denied  { set } for property\u003dpersist.rcs.otp_sms_port pid\u003d1 uid\u003d0 gid\u003d0 scontext\u003du:r:vendor_init:s0 tcontext\u003du:object_r:default_prop:s0 tclass\u003dproperty_service permissive\u003d0\u0027\n02-23 21:35:33.057     0     0 E init    : Do not have permissions to set \u0027persist.rcs.otp_sms_port\u0027 to \u00270\u0027 in property file \u0027/vendor/build.prop\u0027: SELinux permission check failed\n\nConsider these denials too",
+      "parentUuid": "dc099cc4_f9e95e07",
+      "revId": "d074ff9bb5ea745f118e4eb788a10c2bba568cea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
