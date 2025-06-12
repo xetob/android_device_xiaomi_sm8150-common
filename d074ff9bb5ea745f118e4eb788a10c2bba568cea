@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e72be1e4_90cf830b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-06-12T17:32:44Z",
+      "side": 1,
+      "message": "```\n[seba@Seba-PC nabu_global_images_OS1.0.6.0.TKXMIXM_20240914.0000.00_13.0_global_3693ddb728]$ rg \u0027dynamic_sar\u0027\nvendor/build.prop\n321:persist.radio.dynamic_sar\u003dfalse\n394:persist.vendor.radio.dynamic_sar\u003dtrue\n```\nI think I\u0027ll just compare all props again from nabu",
+      "revId": "d074ff9bb5ea745f118e4eb788a10c2bba568cea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
