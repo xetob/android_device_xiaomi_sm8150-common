@@ -199,7 +199,7 @@ SOONG_CONFIG_XIAOMI_MSMNILE_PARTITION_SCHEME := legacy
 endif
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2024-03-01
+VENDOR_SECURITY_PATCH := 2024-10-01
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
