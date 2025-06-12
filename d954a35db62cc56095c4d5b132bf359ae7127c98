@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "198fbac5_30d9ee01",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34612
+      },
+      "writtenOn": "2025-06-12T15:19:07Z",
+      "side": 1,
+      "message": "https://github.com/armdebug/proprietary_vendor_xiaomi_sm8150-common/commit/27b750e5b8b9c8337f1f8441e7aebe037ac24f36",
+      "revId": "d954a35db62cc56095c4d5b132bf359ae7127c98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
