@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "20647650_d85a9193",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2025-06-14T18:22:34Z",
+      "side": 1,
+      "message": "I\u0027d just abandon this, I expect to see the UFFD patches merged on qcom_sm8150 ~soon~",
+      "revId": "5dd4aa32371ba782a8dd02411c251c207de666cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
