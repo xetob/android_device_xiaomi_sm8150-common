@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c97432f3_8e8118ca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-06-14T12:00:38Z",
+      "side": 1,
+      "message": "@bgcngm@gmail.com @mkbestas@lineageos.org should this be in qcom sepolicy? Or even Lineage one?",
+      "revId": "5c7c5934118f0d508a97cbb3652d6c918bb45cf9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
