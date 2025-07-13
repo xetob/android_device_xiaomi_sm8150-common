@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a66427bf_71656001",
+        "filename": "sepolicy/vendor/genfs_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-07-13T06:11:54Z",
+      "side": 0,
+      "message": "I don\u0027t see this one in common sepolicy, is it really duplicate?",
+      "revId": "64e4ec5ddbdd6717d3c94ba1aa1bbc35b832ae71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
