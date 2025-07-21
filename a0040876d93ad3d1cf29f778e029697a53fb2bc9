@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45e3abe3_a575afd2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2025-07-21T18:49:27Z",
+      "side": 1,
+      "message": "https://github.com/sm8150-playground/vendor_xiaomi_sm8150-common/commit/6d1ae4ef79ac8f104ba55d0e658c534ab46a049a \n\nmodification",
+      "revId": "a0040876d93ad3d1cf29f778e029697a53fb2bc9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
