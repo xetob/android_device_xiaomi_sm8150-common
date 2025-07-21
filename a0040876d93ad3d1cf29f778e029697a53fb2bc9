@@ -51,6 +51,24 @@
       "parentUuid": "e174e23c_8081c2d5",
       "revId": "a0040876d93ad3d1cf29f778e029697a53fb2bc9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f330a23_7756999e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2025-07-21T19:31:21Z",
+      "side": 1,
+      "message": "It not getting any updates is beside the point. This is so people can build via extracting from stock and still get all of the changes",
+      "parentUuid": "557e0553_9c51d488",
+      "revId": "a0040876d93ad3d1cf29f778e029697a53fb2bc9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
