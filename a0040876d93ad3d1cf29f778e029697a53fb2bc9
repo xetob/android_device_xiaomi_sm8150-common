@@ -33,6 +33,24 @@
       "message": "This could also be done with extract-files.py instead of pinning the blobs changed",
       "revId": "a0040876d93ad3d1cf29f778e029697a53fb2bc9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "557e0553_9c51d488",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2025-07-21T19:29:20Z",
+      "side": 1,
+      "message": "thanks for pointing . But I feel its fine since nabu is eol from xiaomi I dont see it getting any change in those init",
+      "parentUuid": "e174e23c_8081c2d5",
+      "revId": "a0040876d93ad3d1cf29f778e029697a53fb2bc9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
