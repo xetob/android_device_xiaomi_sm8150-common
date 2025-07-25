@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff38f317_b26cca05",
+        "filename": "sepolicy/vendor/genfs_contexts",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 35686
+      },
+      "writtenOn": "2025-07-25T18:38:14Z",
+      "side": 0,
+      "message": "Comment removed by: Michael Bestas; Reason: Spam",
+      "revId": "9924cde073774efc1441bbac095558923b62de50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
