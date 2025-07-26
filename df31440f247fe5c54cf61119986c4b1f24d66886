@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ba41049_c99bf726",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29669
+      },
+      "writtenOn": "2025-07-26T05:55:22Z",
+      "side": 1,
+      "message": "avc:  denied  { read } for  name\u003d\"u:object_r:default_prop:s0\" dev\u003d\"tmpfs\" ino\u003d9916 scontext\u003du:r:vendor_qtidataservices_app:s0:c187,c256,c512,c768 tcontext\u003du:object_r:default_prop:s0 tclass\u003dfile permissive\u003d0 app\u003dvendor.qti.hardware.cacert.server\n\navc:  denied  { read } for  name\u003d\"u:object_r:default_prop:s0\" dev\u003d\"tmpfs\" ino\u003d9916 scontext\u003du:r:vendor_qtidataservices_app:s0:c188,c256,c512,c768 tcontext\u003du:object_r:default_prop:s0 tclass\u003dfile permissive\u003d0 app\u003dcom.qualcomm.qti.cne\n\navc:  denied  { read } for  name\u003d\"u:object_r:default_prop:s0\" dev\u003d\"tmpfs\" ino\u003d9916 scontext\u003du:r:vendor_qtidataservices_app:s0:c189,c256,c512,c768 tcontext\u003du:object_r:default_prop:s0 tclass\u003dfile permissive\u003d0 app\u003dvendor.qti.iwlan\n\nDo you have these in boot up logs ? i suppose to have them on raphael. As soon as device gets detected in adb after reboot start taking logs and check once on your end once.",
+      "revId": "df31440f247fe5c54cf61119986c4b1f24d66886",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
