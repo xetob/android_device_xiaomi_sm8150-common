@@ -24,6 +24,9 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('.*seclabel u:r:mi_thermald:s0\n', ''),
     'vendor/etc/seccomp_policy/atfwd@2.0.policy': blob_fixup()
         .add_line_if_missing('gettid: 1'),
+    'vendor/etc/wfdconfig.xml': blob_fixup()
+        .regex_replace('<AudioStreamInSuspend>0</AudioStreamInSuspend>', '<AudioStreamInSuspend>1</AudioStreamInSuspend>')
+        .regex_replace('<HID>0</HID>', '<HID>1</HID>'),
     'vendor/lib64/mediadrm/libwvdrmengine.so': blob_fixup()
         .add_needed('libcrypto_shim.so'),
     'vendor/lib64/libwvhidl.so': blob_fixup()
