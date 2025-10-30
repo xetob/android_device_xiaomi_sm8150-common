@@ -19,7 +19,7 @@ void property_override(const std::string& prop, const std::string& value, bool a
     }
 }
 
-std::vector<std::string> ro_props_default_source_order = {
+static const std::vector<std::string> ro_props_default_source_order = {
         "odm.", "product.", "system.", "system_ext.", "vendor.", "",
 };
 
@@ -41,19 +41,19 @@ void set_ro_build_prop(const std::string& prop, const std::string& value, bool p
     std::string variable_name = s.substr(0, s.find(delimiter)); \
     s.erase(0, s.find(delimiter) + delimiter.length());
 
-const std::string fingerprint_to_description(const std::string& fingerprint) {
-    const std::string delimiter = "/";
-    const std::string delimiter2 = ":";
+static const std::string kFingerprintDelimiter = "/";
+static const std::string kFingerprintDelimiter2 = ":";
 
+const std::string fingerprint_to_description(const std::string& fingerprint) {
     std::string build_fingerprint_copy = fingerprint;
 
-    FIND_AND_REMOVE(build_fingerprint_copy, delimiter, brand)
-    FIND_AND_REMOVE(build_fingerprint_copy, delimiter, product)
-    FIND_AND_REMOVE(build_fingerprint_copy, delimiter2, device)
-    FIND_AND_REMOVE(build_fingerprint_copy, delimiter, platform_version)
-    FIND_AND_REMOVE(build_fingerprint_copy, delimiter, build_id)
-    FIND_AND_REMOVE(build_fingerprint_copy, delimiter2, build_number)
-    FIND_AND_REMOVE(build_fingerprint_copy, delimiter, build_variant)
+    FIND_AND_REMOVE(build_fingerprint_copy, kFingerprintDelimiter, brand)
+    FIND_AND_REMOVE(build_fingerprint_copy, kFingerprintDelimiter, product)
+    FIND_AND_REMOVE(build_fingerprint_copy, kFingerprintDelimiter2, device)
+    FIND_AND_REMOVE(build_fingerprint_copy, kFingerprintDelimiter, platform_version)
+    FIND_AND_REMOVE(build_fingerprint_copy, kFingerprintDelimiter, build_id)
+    FIND_AND_REMOVE(build_fingerprint_copy, kFingerprintDelimiter2, build_number)
+    FIND_AND_REMOVE(build_fingerprint_copy, kFingerprintDelimiter, build_variant)
     std::string build_version_tags = build_fingerprint_copy;
 
     const std::string description = product + "-" + build_variant + " " + platform_version + " " +
