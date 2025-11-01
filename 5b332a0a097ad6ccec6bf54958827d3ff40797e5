@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb1965d9_6a3e2b23",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34612
+      },
+      "writtenOn": "2025-11-01T13:35:20Z",
+      "side": 1,
+      "message": "This change requires the following fix for correct functionality:\n\nhttps://review.lineageos.org/c/LineageOS/android_hardware_qcom_thermal/+/439251",
+      "revId": "5b332a0a097ad6ccec6bf54958827d3ff40797e5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
