@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e3d43ca_312fb629",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34612
+      },
+      "writtenOn": "2026-02-01T11:36:19Z",
+      "side": 1,
+      "message": "Breaks NFC on devices using SN100 chip, causing the kernel driver to fail at startup",
+      "revId": "8eddc35670e384ee863c6ffd392361875ac97323",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
