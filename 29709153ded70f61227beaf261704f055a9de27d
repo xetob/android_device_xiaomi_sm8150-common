@@ -34,6 +34,24 @@
       "parentUuid": "b084b58c_5a9e7911",
       "revId": "29709153ded70f61227beaf261704f055a9de27d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d01794d3_bed432b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34612
+      },
+      "writtenOn": "2026-02-01T11:32:49Z",
+      "side": 1,
+      "message": "The search permission is mandatory because the popup service needs to traverse the directory structure to find the file",
+      "parentUuid": "cc441ef7_4c1f8553",
+      "revId": "29709153ded70f61227beaf261704f055a9de27d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
