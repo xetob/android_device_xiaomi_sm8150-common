@@ -2,6 +2,7 @@
 # kebab: KB2001 14.0.0.81(EX01)
 # raphael: raphael-user 11 RKQ1.200826.002 V12.5.2.0.RFKMIXM release-keys
 # vayu: vayu_global-user 13 RKQ1.200826.002 V14.0.3.0.TJUMIXM release-keys
+# sweet_k6a: sweetk6a_eea-user 13 TKQ1.221114.00 V14.0.9.0.SKGMIXM release-keys
 
 # ADSP
 vendor/bin/adsprpcd
@@ -350,17 +351,19 @@ product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoog
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
-# IMS
-system_ext/lib64/lib-imsvideocodec.so
-system_ext/lib64/lib-imsvt.so
-system_ext/lib64/lib-imsvtextutils.so
-system_ext/lib64/lib-imsvtutils.so
-system_ext/lib64/libdiag_system.so
-system_ext/lib64/libimscamera_jni.so
-system_ext/lib64/libimsmedia_jni.so
-system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
-system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
-system_ext/priv-app/ims/ims.apk
+# IMS (system) - from sweet_k6a
+system_ext/lib64/lib-imsvideocodec.so|aeea873dbb3ba0de6021a3e9004734cff61b5372
+system_ext/lib64/lib-imsvt.so|dcf23823c74ae9844b6a5317f798b993c45b2e41
+system_ext/lib64/lib-imsvtextutils.so|1dfb5640cd23a92e7ca55a84118b2966653aebc7
+system_ext/lib64/lib-imsvtutils.so|67ce2fc38fbf819e397b19e1ff46c70183e890d2
+system_ext/lib64/libdiag_system.so|dc2de2086df46099fe97391d1d8162485bacba3c
+system_ext/lib64/libimscamera_jni.so|bdd5f502319273cc1f09992c94afc712c1373ce8
+system_ext/lib64/libimsmedia_jni.so|5fc0cfebab77e2e2f2cb9d7b842627b15042c95b
+system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|ace5e02b6cd79b43a07d84e2d18d6818821a3c48
+system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|e64aa8a21a8db69d2e2ea14929bb20ced99c119d
+system_ext/priv-app/ims/ims.apk|ae1b0b678e6fd8c52962d30a715f2d9cdf381248
+
+# IMS (vendor)
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
