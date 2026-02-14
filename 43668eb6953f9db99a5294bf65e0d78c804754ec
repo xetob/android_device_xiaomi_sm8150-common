@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "51b78dfb_b33cf9a9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20364
+      },
+      "writtenOn": "2026-02-14T20:52:19Z",
+      "side": 1,
+      "message": "Looks completely off both on dark and white theme",
+      "revId": "43668eb6953f9db99a5294bf65e0d78c804754ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
