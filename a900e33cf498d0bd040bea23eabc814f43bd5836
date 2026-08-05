@@ -34,6 +34,24 @@
       "parentUuid": "9704f8c6_16b5151f",
       "revId": "a900e33cf498d0bd040bea23eabc814f43bd5836",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7551566c_0e3ed619",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34612
+      },
+      "writtenOn": "2026-08-05T12:00:59Z",
+      "side": 1,
+      "message": "`libwfdservice_shim` isn\u0027t needed with dada blobs: https://review.lineageos.org/c/LineageOS/android_device_xiaomi_sm8150-common/+/472277",
+      "parentUuid": "a313b8d3_ef116353",
+      "revId": "a900e33cf498d0bd040bea23eabc814f43bd5836",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
