@@ -16,6 +16,24 @@
       "message": "https://review.lineageos.org/c/LineageOS/android_device_xiaomi_sm8150-common/+/472281",
       "revId": "a900e33cf498d0bd040bea23eabc814f43bd5836",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a313b8d3_ef116353",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33857
+      },
+      "writtenOn": "2026-08-05T08:03:03Z",
+      "side": 1,
+      "message": "Change 472281 added libinput_shim, but this change is adding libwfdservice_shim. Can 472281 solve elf check failure for wfdservice64 without libwfdservice_shim?",
+      "parentUuid": "9704f8c6_16b5151f",
+      "revId": "a900e33cf498d0bd040bea23eabc814f43bd5836",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
